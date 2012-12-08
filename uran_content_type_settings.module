@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Uran content type settings feature.
+ */
+
+include_once 'uran_content_type_settings.features.inc';

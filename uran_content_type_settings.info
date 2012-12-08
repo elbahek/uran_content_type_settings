@@ -1,0 +1,10 @@
+name = Uran content type settings
+core = 7.x
+package = Misc
+version = 7.x-1.0
+project = uran_content_type_settings
+dependencies[] = content_type_extras
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[variable][] = content_type_extras_default_settings
